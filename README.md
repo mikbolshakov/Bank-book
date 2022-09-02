@@ -8,6 +8,6 @@ npm i redux-devtools-extension
 To track state changes
 
 npm i redux-thunk 
-The easiest way to work with async actions (без redux saga)
+The easiest way to work with async actions (without redux saga)
 
 jsonplaceholder - fake api service to which we send the request
