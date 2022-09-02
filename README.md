@@ -5,9 +5,9 @@ npm i redux react-redux
     npm install react-redux
 
 npm i redux-devtools-extension 
-Для отслеживания изменений состояния
+To track state changes
 
 npm i redux-thunk 
-Cамый простой способ для работы с асинхронными actions (без redux saga)
+The easiest way to work with async actions (без redux saga)
 
-jsonplaceholder - фейковый апи сервис, на который отправляем запрос
+jsonplaceholder - fake api service to which we send the request
