@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Bank-book/static/css/main.7b0ff90f.css",
+    "main.js": "/Bank-book/static/js/main.421fe07d.js",
+    "index.html": "/Bank-book/index.html",
+    "main.7b0ff90f.css.map": "/Bank-book/static/css/main.7b0ff90f.css.map",
+    "main.421fe07d.js.map": "/Bank-book/static/js/main.421fe07d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b0ff90f.css",
+    "static/js/main.421fe07d.js"
+  ]
+}

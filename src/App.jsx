@@ -16,7 +16,7 @@ function App() {
     dispatch({ type: "GET_CASH", payload: cash });
   };
 
-  const addCustomer = (name) => {
+  const addCustomerAction = (name) => {
     const customer = {
       name,
       id: Date.now(),
@@ -24,7 +24,7 @@ function App() {
     dispatch(addCustomerAction(customer));
   };
 
-  const removeCustomer = (customer) => {
+  const removeCustomerAction = (customer) => {
     dispatch(removeCustomerAction(customer.id));
   };
 
@@ -38,7 +38,7 @@ function App() {
         <button onClick={() => getCash(Number(prompt()))}>
           Снять со счета
         </button>
-        <button onClick={() => addCustomer(prompt())}>Добавить клиента</button>
+        <button onClick={() => addCustomerAction(prompt())}>Добавить клиента</button>
         <button onClick={() => dispatch(fetchCustomers())}>
           Получить клиентов из базы
         </button>
@@ -46,7 +46,7 @@ function App() {
       {customers.length > 0 ? (
         <div>
           {customers.map((customer) => (
-            <div className="clients" onClick={() => removeCustomer(customer)}>{customer.name}</div>
+            <div className="clients" onClick={() => removeCustomerAction(customer)}>{customer.name}</div>
           ))}
         </div>
       ) : (
